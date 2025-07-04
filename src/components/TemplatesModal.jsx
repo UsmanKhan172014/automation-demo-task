@@ -53,7 +53,7 @@ const TemplatesModal = ({ onClose }) => (
             <div className="bg-[#f6f7f9] flex-1 overflow-y-auto rounded-xl">
                 <div className="flex flex-col xl:flex-row items-start xl:items-center mb-6 bg-white p-4 xl:p-8">
                     <h2 className="text-3xl  modal-head font-extrabold w-full xl:w-[30%] mb-4 xl:mb-0">Ready-to-Go Templates</h2>
-                    <div className="flex flex-row items-start sm:items-center gap-4 w-full xl:w-[70%]">
+                    <div className="flex flex-col lg:flex-row  items-start sm:items-center gap-4 w-full xl:w-[70%]">
                         <label className="flex items-center text-md font-medium">
                             <input type="checkbox" className="mr-2 w-5 h-5" />
                             Don't show Templates again
@@ -120,4 +120,3 @@ const TemplatesModal = ({ onClose }) => (
 );
 
 export default TemplatesModal;
-
