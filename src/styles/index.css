@@ -1,0 +1,126 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    background-color: #f6f7f9;
+}
+
+
+.logo {
+    width: 70%;
+    height: 65px;
+
+}
+
+.user {
+    width: 40%;
+    height: 48px;
+
+}
+
+.user-tag {
+    position: absolute;
+    top: 146px;
+    left: 3.25%;
+    background-color: #3d83f2;
+    border-radius: 5px;
+    font-size: 12px;
+    color: white;
+    font-weight: 500;
+}
+
+.sub-side {
+    font-size: 15px;
+
+}
+
+
+.header{
+height: 97px !important;
+
+}
+
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+
+    .modal-div {
+        width: 85% !important;
+    }
+
+    .modal-head {
+        font-size: 25px;
+    }
+
+    .modal-content {
+        height: 150px;
+    }
+
+    .table-head{
+        width: 45%;
+  }
+    .table-body{
+        width: 45%;
+  }
+
+
+}
+
+
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+
+    .modal-div {
+        width: 85% !important;
+    }
+
+    .modal-head {
+        font-size: 25px;
+    }
+
+    .modal-content {
+        height: 150px !important;
+    }
+       .table-head{
+        width: 45%;
+  }
+    .table-body{
+        width: 45%;
+  }
+
+
+}
+
+
+@media (min-width: 0px) and (max-width: 575.98px) {
+
+
+    .user-tag{
+    top: 200px;
+    left: 12.25%;
+
+    }
+
+    .modal-div {
+        width: 85% !important;
+    }
+
+
+
+    .modal-content {
+        height: 150px !important;
+    }
+
+
+}
+@media (min-width: 576px) and (max-width: 991.98px) {
+
+    .modal-div {
+        width: 90% !important;
+    }
+
+
+    .modal-content {
+        height: 150px !important;
+    }
+
+}
